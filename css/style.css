@@ -1,0 +1,71 @@
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+/* header */
+
+header {
+    display: flex;
+    width: 100%;
+    padding: 52px 98px;
+    justify-content: center;
+    align-items: center;
+    gap: 251px;
+}
+
+.h1_1,
+.h1_2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.h1_1 {
+    color: #27187F;
+}
+
+.h2_2 {
+    color: #758BFD;
+}
+
+.header_nav {
+    display: flex;
+    width: calc (393 / 1440 * 100%);
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.header_ul {
+    display: flex;
+    gap: 50px;
+}
+
+.active {
+    color: #27187F;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.no_active {
+    color: #758BFD;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.search {
+    display: flex;
+    width: 222px;
+    padding: 12px 8px 12px 182px;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px;
+    border: 3px solid #758BFD;
+}
+
+.fa-magnifying-glass {
+    color: #758BFD;
+}
