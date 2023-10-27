@@ -1,3 +1,5 @@
+/* container */
+
 .container {
     width: min(100%, 1440px);
     margin: auto;
@@ -34,7 +36,7 @@ header {
     width: calc (393 / 1440 * 100%);
     justify-content: center;
     align-items: flex-start;
-    
+
 }
 
 .header_ul {
@@ -68,4 +70,66 @@ header {
 
 .fa-magnifying-glass {
     color: #758BFD;
+}
+
+/* section */
+
+.section {
+    background: #DDEAF8;
+    display: flex;
+    width: 100%;
+    padding: 115px 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec_h2 {
+    color: #27187F;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.article {
+    display: flex;
+    width: calc (1244 / 1440 * 100%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 68px;
+
+}
+
+.sec_div {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 22px;
+    row-gap: 51px;
+    justify-content: center;
+    align-items: center;
+}
+
+figure {
+    border-radius: 10px;
+    background: #FFF;
+    display: flex;
+    width: 400px;
+    padding: 33px 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 33px;
+}
+
+img {
+    width: 100%;
+    height: 188px;
+}
+
+figcaption {
+    color: #133B3A;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 400; 
 }
