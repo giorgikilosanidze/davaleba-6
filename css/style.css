@@ -143,3 +143,55 @@ figcaption {
     font-weight: 400;
 }
 
+/* footer */
+
+footer {
+    background: #758BFD;
+    display: flex;
+    padding: 75px 98px 109px;
+    justify-content: space-between;
+}
+
+.footer_article {
+    display: flex;
+    /* width: calc(164 / 1440 * 100%); */
+    width: 114px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+
+.footer_h6 {
+    color: #FFF;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+}
+
+.footer_div {
+    display: flex;
+    justify-content: space-between;
+    /* width: calc(200 / 1440 * 100%); */
+    /* width: calc(164 / 1440 * 100%); */
+    width: 114px;
+}
+
+.fa-brands {
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.footer_div2 {
+    display: flex;
+    justify-content: space-between;
+    width: 421px;
+    column-gap: 11px;
+}
+
+.footer_img {
+    width: 100%;
+    height: 55px;
+}
